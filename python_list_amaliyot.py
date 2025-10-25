@@ -7,4 +7,4 @@ print(sonlar)
 t_shaxslar = ('Elon Mask','Bill Gates')
 print(a_shaxslar)
 z_shaxslar = ('Mirzo Ulugbek','Alisher Navoiy')
-z_shaxslar.pop['Elon Mask']
+z_shaxslar.pop['Elon Ma']
