@@ -47,7 +47,7 @@ tuple() o'zgarmas ro'yhat
 # print(country)
 # print(davlatlar)
 
-toqson = list(range(1,21,2))
-print('asl korinish:', toqson)
-print('1 dan 7 gacha:', toqson[0:4])
-print(toqson[:])
+# toqson = list(range(1,21,2))
+# print('asl korinish:', toqson)
+# print('1 dan 7 gacha:', toqson[0:4])
+# print(toqson[:])
