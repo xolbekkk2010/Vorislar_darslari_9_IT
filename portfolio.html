@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xolbek Qurbonboyev | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e8a48a4d.js" crossorigin="anonymous"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f8f9fa;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #222;
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #00adb5;
+    }
+
+    .logo span {
+      color: #00adb5;
+    }
+
+    /* Home */
+    .home {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 100px 50px;
+    }
+
+    .home-text {
+      max-width: 500px;
+    }
+
+    .home-text h2 span {
+      color: #00adb5;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #00adb5;
+      color: #fff;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #007b7f;
+    }
+
+    .home-img img {
+      width: 250px;
+      border-radius: 50%;
+      border: 5px solid #00adb5;
+    }
+
+    /* About */
+    .about {
+      padding: 80px 50px;
+      text-align: center;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .skill {
+      background: #00adb5;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .skill:hover {
+      transform: scale(1.1);
+    }
+
+    /* Projects */
+    .projects {
+      padding: 80px 50px;
+      background: #f0f0f0;
+      text-align: center;
+    }
+
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .project-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    /* Contact */
+    .contact {
+      padding: 80px 50px;
+      text-align: center;
+    }
+
+    .contact ul {
+      list-style: none;
+      margin-top: 20px;
+    }
+
+    .contact li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .contact a {
+      color: #00adb5;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .home {
+        flex-direction: column;
+        text-align: center;
+      }
+      .navbar ul {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Xolbek <span>Qurbonboyev</span></h1>
+      <ul>
+        <li><a href="#home">Bosh sahifa</a></li>
+        <li><a href="#about">Men haqimda</a></li>
+        <li><a href="#projects">Loyihalar</a></li>
+        <li><a href="#contact">Aloqa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="home">
+    <div class="home-text">
+      <h2>Salom! Men <span>Xolbek Qurbonboyev</span></h2>
+      <h3>Beginner dasturchi</h3>
+      <p>Men Xorazm viloyati Xonqa tumani 1-maktab 9-"B" sinfida o‘qiyman. Dasturlashni o‘rganishni va o‘z loyihalarimni yaratishni yoqtiraman.</p>
+      <a href="#contact" class="btn">Bog‘lanish</a>
+    </div>
+    <div class="home-img">
+      <img src="blob:https://web.telegram.org/e2c9874d-5650-45ea-96e1-84918b654fe4" alt="Xolbek Qurbonboyev rasmi">
+   
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>Men haqimda</h2>
+    <p>Men hozirda dasturlash sohasini o‘rganayotgan yosh dasturchiman. HTML, CSS, JavaScript va Python tillarida ishlay olaman. 
+       “Al-Xorazmiy vorislari” loyihasida o‘qiyman va kelajakda professional dasturchi bo‘lishni maqsad qilganman.</p>
+
+    <div class="skills">
+      <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+      <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+      <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill"><i class="fab fa-python"></i> Python</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Loyihalarim</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x180" alt="Project 1">
+        <h3>Al-Xorazmiy vorislari</h3>
+        <p>Dasturlash asoslarini o‘rgatishga bag‘ishlangan ta’lim loyihasi.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x180" alt="Project 2">
+        <h3>Test Portfolio</h3>
+        <p>HTML, CSS va JS yordamida yaratilgan shaxsiy portfolio namunasidir.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Aloqa</h2>
+    <p>Menga quyidagi manzillar orqali bog‘lanishingiz mumkin:</p>
+    <ul>
+      <li><i class="fas fa-envelope"></i> x9904915@gmail.com</li>
+      <li><i class="fab fa-telegram"></i> <a href="https://t.me/" target="_blank">Telegram</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/" target="_blank">GitHub</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Xolbek Qurbonboyev | Barcha huquqlar himoyalangan</p>
+  </footer>
+
+</body>
+</html>
